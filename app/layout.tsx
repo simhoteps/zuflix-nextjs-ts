@@ -1,10 +1,9 @@
 import { Inter } from "next/font/google";
 
-import "@/styles/reset.css";
-import "@/styles/global.css";
-
-import { Header } from "@/components/header/index";
-import { Footer } from "@/components/footer/index";
+import "styles/reset.css";
+import "styles/global.css";
+import { Header } from "components/header";
+import { Footer } from "components/footer";
 
 const interFontFamily = Inter({ subsets: ["latin"] });
 
