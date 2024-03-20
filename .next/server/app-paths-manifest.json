@@ -1,5 +1,1 @@
-{
-  "/page": "app/page.js",
-  "/movie/[id]/page": "app/movie/[id]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
+{}
