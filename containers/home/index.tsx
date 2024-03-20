@@ -8,15 +8,10 @@ function HomeContainer({
   popularMovies = [],
   topRatedMovies = [],
   categories = [],
-  selectedCategory,
 }: {
   popularMovies: ImovieType[];
   topRatedMovies: ImovieType[];
   categories: ICategoriesType[];
-  selectedCategory: {
-    id: string;
-    movies: ImovieType[];
-  };
 }) {
   return (
     <div>
@@ -24,12 +19,6 @@ function HomeContainer({
         movie={popularMovies[Math.floor(Math.random() * popularMovies.length)]}
       />
       <Categories categories={categories} />
-      {!!selectedCategory.movies.length && (
-        <MoviesSection
-          title={categories.find(({ id }) => id === +selectedCategory.id)?.name}
-          movies={selectedCategory.movies.slice(1, 7)}
-        />
-      )}
       <MoviesSection title="Popular Films" movies={popularMovies.slice(1, 7)} />
       <MoviesSection
         title="Your favorites"

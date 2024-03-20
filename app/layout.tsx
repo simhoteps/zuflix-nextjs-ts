@@ -8,7 +8,11 @@ import { Header } from "components/header";
 
 const interFontFamily = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children }: any) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={interFontFamily.className}>
       <body className="appContainer">
