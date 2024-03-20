@@ -26,6 +26,15 @@ export async function fetchGenres() {
   }
 }
 
+export async function fetchAllMovies() {
+  try {
+    const res = await fetchData("/movie/changes");
+    return res.results;
+  } catch (error: any) {
+    throw new Error("Error happened while fetching movies", error);
+  }
+}
+
 export async function fetchPopularMovies() {
   try {
     const res = await fetchData("/movie/popular");
