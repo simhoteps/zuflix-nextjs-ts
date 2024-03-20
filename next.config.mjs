@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  /* output: "export",
-  reactStrictMode: true, */
+  exportPathMap: function () {
+    return {
+      "/": { page: "/" },
+    };
+  },
 };
+
 export default nextConfig;
