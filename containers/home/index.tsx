@@ -23,7 +23,7 @@ function HomeContainer({
       <FeaturedMovie
         movie={popularMovies[Math.floor(Math.random() * popularMovies.length)]}
       />
-      <Categories categories={categories.slice(1, 6)} />
+      <Categories categories={categories} />
       {!!selectedCategory.movies.length && (
         <MoviesSection
           title={categories.find(({ id }) => id === +selectedCategory.id)?.name}

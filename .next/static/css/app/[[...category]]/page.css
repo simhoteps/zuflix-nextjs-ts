@@ -1,25 +1,60 @@
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/categories/styles.module.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
-.styles_categories__TWW11 {
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./components/categories/styles.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_categories__Zmt1m {
   display: flex;
-  height: 72px;
+  height: 64px;
   gap: 24px;
 }
 
-.styles_category__83ISc {
+.styles_category__kPpOB {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.75);
   border: 1px solid #333;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
+  padding: 16px 48px;
+  border-radius: 16px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
+.styles_newsContainer__hilqo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 36px 18px;
+  gap: 50px;
+  width: 100%;
+}
+
+.styles_newsSliderContainer__QPojS {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.styles_newsSlider__TWlf6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  overflow-x: auto;
+}
+.styles_newsSlider__TWlf6::-webkit-scrollbar {
+  display: none;
+}
+
+.styles_newsSliderDotsCon__D_u_I {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/skeleton/styles.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
@@ -56,6 +91,34 @@
   }
 }
 
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/loading/styles.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.styles_loadingWrapper__nG_r3 {
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styles_loading__NW2Gu {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: styles_spin__CkTyK 1s ease-in-out infinite;
+  -webkit-animation: styles_spin__CkTyK 1s ease-in-out infinite;
+}
+
+@keyframes styles_spin__CkTyK {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/featured-movie/styles.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************/
@@ -68,16 +131,16 @@
 }
 
 .styles_movieTitle__kvHmn {
-  font-size: 72px;
+  font-size: 64px;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: 900;
-  line-height: 72px;
+  line-height: 64px;
   max-width: 25ch;
 }
 
 .styles_overview__Pi9e8 {
-  font-size: 24px;
+  font-size: 20px;
   max-width: 50ch;
 }
 
@@ -138,34 +201,6 @@
   max-height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/loading/styles.module.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************/
-.styles_loadingWrapper__nG_r3 {
-  min-height: 100%;
-  min-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.styles_loading__NW2Gu {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  border-top-color: #fff;
-  animation: styles_spin__CkTyK 1s ease-in-out infinite;
-  -webkit-animation: styles_spin__CkTyK 1s ease-in-out infinite;
-}
-
-@keyframes styles_spin__CkTyK {
-  to {
-    -webkit-transform: rotate(360deg);
-  }
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************************!*\

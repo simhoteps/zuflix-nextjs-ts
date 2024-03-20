@@ -18,11 +18,6 @@
       "static/css/app/[[...category]]/loading.css",
       "static/chunks/app/[[...category]]/loading.js"
     ],
-    "/movie/[id]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/movie/[id]/not-found.js"
-    ],
     "/movie/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -39,6 +34,11 @@
       "static/chunks/main-app.js",
       "static/css/app/movie/[id]/loading.css",
       "static/chunks/app/movie/[id]/loading.js"
+    ],
+    "/movie/[id]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/movie/[id]/not-found.js"
     ]
   }
 }
