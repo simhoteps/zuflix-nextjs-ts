@@ -1,10 +1,32 @@
 {
   "pages": {
-    "/[[...category]]/loading": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[[...category]]/loading.css",
-      "static/chunks/app/[[...category]]/loading.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/movie/[id]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/movie/[id]/error.js"
+    ],
+    "/movie/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/movie/[id]/page.css",
+      "static/chunks/app/movie/[id]/page.js"
+    ],
+    "/movie/[id]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/movie/[id]/loading.css",
+      "static/chunks/app/movie/[id]/loading.js"
+    ],
+    "/movie/[id]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/movie/[id]/not-found.js"
     ],
     "/[[...category]]/page": [
       "static/chunks/webpack.js",
@@ -12,11 +34,16 @@
       "static/css/app/[[...category]]/page.css",
       "static/chunks/app/[[...category]]/page.js"
     ],
-    "/layout": [
+    "/[[...category]]/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/css/app/[[...category]]/loading.css",
+      "static/chunks/app/[[...category]]/loading.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
