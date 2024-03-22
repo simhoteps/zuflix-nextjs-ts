@@ -32,7 +32,7 @@ export async function generateStaticParams() {
 
   const [movies, move] = await Promise.all(pagePromises);
   const push = [...movies, ...move];
-
+  console.log(push.length);
   return push.map((post: Params) => ({
     id: post.id.toString(),
   }));
