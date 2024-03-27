@@ -18,9 +18,9 @@ async function MoviePage({ params, searchParams }: any) {
     notFound();
   }
 
-  if (searchParams.error === "true") {
+  /*   if (searchParams.error === "true") {
     throw new Error("Something went wrong!");
-  }
+  } */
 
   return <MovieContainer movie={movieDetail} />;
 }
