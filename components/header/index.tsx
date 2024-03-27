@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import { CiSearch } from "react-icons/ci";
 import styles from "./styles.module.css";
 import { RiSearch2Line } from "react-icons/ri";
 import { RiNotification4Line } from "react-icons/ri";
 import Image from "next/image";
+
 function Header() {
   return (
     <header className={`${styles.header} appContainer fluid`}>
@@ -19,9 +19,9 @@ function Header() {
           <Link rel="preload" href="/series" as="/series">
             SERIES
           </Link>
-          <Link rel="preload" href="#" as="#">
+          {/*        <Link rel="preload" href="#" as="#">
             KIDS
-          </Link>
+          </Link> */}
         </nav>
         <nav className={"flex items-center gap-1 "}>
           <Link rel="preload" className="w-[36px]" href="#" as="#">
