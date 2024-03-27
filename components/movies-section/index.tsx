@@ -8,9 +8,11 @@ import { ImovieType } from "type/type";
 function MoviesSection({
   title,
   movies,
+  type,
 }: {
   title?: string;
   movies: ImovieType[];
+  type: string;
 }) {
   return (
     <div className={styles.moviesSection}>
@@ -18,7 +20,7 @@ function MoviesSection({
       <div className={styles.movies}>
         {movies.map((movie) => (
           <div className={styles.movie} key={movie.id}>
-            <Link href={`/movie/${movie.id}`}>
+            <Link href={`/${type}/${movie.id}`}>
               <Image
                 fill
                 unoptimized

@@ -91,40 +91,6 @@
   }
 }
 
-/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/movies-section/styles.module.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************/
-.styles_moviesSection__tK87R {
-  margin-top: 36px;
-}
-
-.styles_title__YcWKJ {
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  font-size: 24px;
-  letter-spacing: -1px;
-}
-
-.styles_movies__0ji_g {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  grid-auto-rows: 320px;
-  gap: 24px;
-}
-
-.styles_movie__nfSOb {
-  overflow: hidden;
-  border-radius: 8px;
-  position: relative;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
-}
-
-.styles_movie__nfSOb:hover {
-  z-index: 9;
-  transform: scale(1.25);
-}
-
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/loading/styles.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************/
@@ -235,5 +201,39 @@
   max-height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/movies-section/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_moviesSection__tK87R {
+  margin-top: 36px;
+}
+
+.styles_title__YcWKJ {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+.styles_movies__0ji_g {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: 320px;
+  gap: 24px;
+}
+
+.styles_movie__nfSOb {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.styles_movie__nfSOb:hover {
+  z-index: 9;
+  transform: scale(1.25);
 }
 

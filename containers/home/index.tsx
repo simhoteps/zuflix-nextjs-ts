@@ -19,10 +19,15 @@ function HomeContainer({
         movie={popularMovies[Math.floor(Math.random() * popularMovies.length)]}
       />
       <Categories categories={categories} />
-      <MoviesSection title="Popular Films" movies={popularMovies.slice(1, 7)} />
+      <MoviesSection
+        title="Popular Films"
+        movies={popularMovies.slice(1, 7)}
+        type={"movie"}
+      />
       <MoviesSection
         title="Your favorites"
         movies={topRatedMovies.slice(1, 7)}
+        type={"movie"}
       />
     </div>
   );

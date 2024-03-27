@@ -13,8 +13,8 @@ function Header() {
           ZUFIX
         </Link>
         <nav className={styles.navigationMenu}>
-          <Link href="#">MOVIES</Link>
-          <Link href="#">SERIES</Link>
+          <Link href="/">MOVIES</Link>
+          <Link href="/series">SERIES</Link>
           <Link href="#">KIDS</Link>
         </nav>
         <nav className={"flex items-center gap-1 "}>
