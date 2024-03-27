@@ -20,11 +20,15 @@ function SeriesSection({
       <div className={styles.movies}>
         {series.map((movie) => (
           <div className={styles.movie} key={movie.id}>
-            <Link href={`/${type}/${movie.id}`}>
+            <Link
+              rel="preload"
+              as={`/${type}/${movie.id}`}
+              href={`/${type}/${movie.id}`}
+            >
               <Image
                 fill
                 unoptimized
-                alt={movie.name}
+                alt={`${movie.name}`}
                 src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
               />
             </Link>

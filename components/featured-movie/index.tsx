@@ -29,10 +29,12 @@ function FeaturedMovie({
       </p>
       <div className={"flex gap-[12px]"}>
         <Link
+          rel="preload"
           className={
             "flex items-center justify-center bg-white text-[#222] w-[300px] rounded-full text-xl font-bold"
           }
           href={`/movie/${movie.id}`}
+          as={`/movie/${movie.id}`}
         >
           Play
         </Link>
@@ -55,7 +57,7 @@ function FeaturedMovie({
             className={"object-cover h-auto max-h-[100vh] -z-[2] bg-left-top"}
             unoptimized
             src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
-            alt={movie.title}
+            alt={`${movie.title}`}
             fill
           />
         )}

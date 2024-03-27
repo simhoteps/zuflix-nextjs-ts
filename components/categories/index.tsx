@@ -37,9 +37,11 @@ function Categories({ categories }: { categories: ICategoriesType[] }) {
         <div id="newsSlider1" className={styles.newsSlider} ref={newsSliderRef}>
           {categories.map((category) => (
             <Link
+              rel="preload"
               key={category.id}
               className={styles.category}
               href={`/${category.id}`}
+              as={`/${category.id}`}
             >
               <div className={styles.name}>{category.name}</div>
             </Link>

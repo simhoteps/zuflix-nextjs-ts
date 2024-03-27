@@ -14,7 +14,9 @@ function Movie404() {
     >
       <h1>We couldn&apos;t find the movie you looking for!</h1>
       <Link
+        rel="preload"
         href="/"
+        as={"/"}
         style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}
       >
         Go home

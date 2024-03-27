@@ -6,8 +6,6 @@ import {
   fetchSingleSeries,
   fetchTopRatedTv,
 } from "services/series";
-import Image from "next/image";
-import { ISeasonsType, ISeriesType } from "type/type";
 
 type Params = {
   id: string;

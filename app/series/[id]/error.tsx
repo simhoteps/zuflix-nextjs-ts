@@ -15,7 +15,9 @@ function Movie404() {
     >
       <h1>An error has occurred. Sorry for that! </h1>
       <Link
+        rel="preload"
         href="/"
+        as="/"
         style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}
       >
         Go home

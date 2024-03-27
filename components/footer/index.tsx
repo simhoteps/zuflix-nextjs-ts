@@ -7,7 +7,13 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       Made with ❤️ by&nbsp;
-      <Link style={{ textDecoration: "none" }} href="" target="_blank">
+      <Link
+        rel="preload"
+        style={{ textDecoration: "none" }}
+        href=""
+        as={""}
+        target="_blank"
+      >
         Zühal H. Yurdakul
       </Link>
     </footer>
